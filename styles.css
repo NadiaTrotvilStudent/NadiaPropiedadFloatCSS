@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    background-color: #f4f4f4; 
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    overflow: hidden; /* Asegura que el contenedor ajuste su altura a las columnas flotantes */
+}
+
+.column {
+    float: left;
+    width: 30%; /* Ajusta el ancho de cada columna para cinco columnas en una fila */
+    box-sizing: border-box; /* Incluye padding y border en el ancho total */
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center; /* Alinea el texto al centro en las columnas */
+}
+
+h2 {
+    color: #333;
+}
+
+img {
+    width: 200px; /* Ancho fijo para las imágenes */
+    height: 300px; /* Alto fijo para las imágenes */
+    object-fit: cover; /* Asegura que la imagen cubra el área sin distorsión */
+    border-radius: 8px;
+}
+
+.clear {
+    clear: both; /* Asegura que el elemento siguiente no flote al lado de las columnas */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 8px;
+}
